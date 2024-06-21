@@ -1,0 +1,88 @@
+footer{
+    display: flex;
+
+    grid-template-columns: repeat(4, 1fr);
+    width: 100%;
+    height: 200px;
+
+    margin-top: 2rem;
+    background-color: #ffaac5;
+    border-top: 1px solid rgb(211, 211, 211);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    color: palevioletred;
+}
+.acerca h1{
+    padding: 20px 0px;
+}
+.acerca h2{
+    padding: 5px 0px;
+}
+.acerca img{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+.acerca div{
+    display: flex;
+
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.ayuda h1{
+    padding: 20px 0px;
+}
+.ayuda h2{
+    padding: 5px 0px;
+}
+.ayuda img{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+.ayuda div{
+    display: flex;
+
+    grid-template-columns: repeat(2, 1fr);
+}
+
+
+.contacto h1{
+    padding: 20px 0px;
+}
+.contacto h2{
+    padding: 5px 0px;
+}
+.contacto img{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+.contacto div{
+    display: flex;
+
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.redes h1{
+    padding: 20px 0px;
+}
+.redes h2{
+    padding: 5px 0px;
+}
+.redes img{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+.redes div{
+    display: flex;
+
+    grid-template-columns: repeat(2, 1fr); 
+}

@@ -1,0 +1,81 @@
+header {
+    background-color: #ffaac5;
+    color: white;
+}
+header .content {
+    width: 100%;
+    max-width: var(--div-contenido);
+    height: 100%;
+    margin: auto;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    display: flex;
+
+    grid-template-columns: repeat(2, 1fr);
+}
+.logo img{
+    width: 140px;
+    height: 135px;
+
+    padding: 0px 10px;
+}
+.logo h3{
+    padding: 50px 0px;
+}
+.content h3 {
+    font-size: 3rem;
+}
+.content img {
+    cursor: pointer;
+}
+.carrito{
+    max-width: 140px;
+    height: 60px;
+}
+.entrada_de_texto{
+    display: flex;
+    grid-template-columns: repeat(2, 1fr);
+
+    align-items: center;
+    justify-content: center ;
+}
+.lupa{
+    width: auto;
+    height: 20px;
+
+    border-radius: 0px 10px;
+    padding: 0px 10px;
+}
+.buscador{
+    width: auto;
+    height: 30px;
+
+    border: 2px solid pink;
+    border-radius: 10px;
+}
+.sesion {
+    cursor: pointer;
+    width: 30px;
+    height: 80vh;
+    overflow: hidden;
+}
+
+.sesion img {
+    width: 90%;
+    height: 100%;
+    object-fit: contain;
+}
+
+@media only screen and (max-width: 720px) {
+
+}
+
+@media only screen and (max-width: 480px) {
+
+}
+
+@media only screen and (max-width: 360px) {}

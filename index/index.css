@@ -1,0 +1,7 @@
+#root {
+    display: grid;
+    /* grid-template-columns: 20rem 30rem auto 20rem; */
+    grid-template-rows: 6rem auto 8rem;
+    background-color: #ffe1f1;
+    gap: 2rem;
+}
